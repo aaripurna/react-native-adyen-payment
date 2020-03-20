@@ -12,7 +12,7 @@ internal struct PaymentDetailsRequest: Request {
     
     internal typealias ResponseType = PaymentsResponse
     
-    internal let path = "payments/details"
+    internal let path = "payments/details/"
     
     internal let details: AdditionalDetails
     

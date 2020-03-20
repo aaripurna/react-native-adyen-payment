@@ -24,7 +24,7 @@ internal struct PaymentsRequest: Request {
     
     internal typealias ResponseType = PaymentsResponse
     
-    internal let path = "payments"
+    internal let path = "payments/"
     
     internal let data: PaymentComponentData
     
@@ -52,7 +52,7 @@ internal struct PaymentsRequest: Request {
     }
     
     private enum CodingKeys: String, CodingKey {
-        case details = "paymentMethod"
+        case details = "payments/methods/"
         case storePaymentMethod
         case amount
         case reference

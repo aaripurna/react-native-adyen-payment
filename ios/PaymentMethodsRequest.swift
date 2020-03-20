@@ -11,7 +11,7 @@ internal struct PaymentMethodsRequest: Request {
     
     internal typealias ResponseType = PaymentMethodsResponse
     
-    internal let path = "paymentMethods"
+    internal let path = "payments/methods/"
     
     internal func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
