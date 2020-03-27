@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-	s.dependency "Adyen", { :git => "https://github.com/gusmega/adyen-ios.git" }
+	s.dependency "Adyen"
 end
 
